@@ -18,5 +18,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls), # runs the default admin application
-    path("hello/", include("helloworld.urls"))
+    path("hello/", include("helloworld.urls")),
+    path('isitmybd/', include("isItMyBD.urls")),
+
 ]
